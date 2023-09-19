@@ -1,4 +1,50 @@
- lara2 repository
-lara2 repository
-lara2 repository
- 
+
+C:\Users\Admin>git version
+git version 2.42.0.windows.2
+
+C:\Users\Admin>git config --global user.name ManuSam23/ManuSam23"
+
+C:\Users\Admin>git config --global user.email "manoharswamikari@gmail.com"
+
+C:\Users\Admin>git init
+Initialized empty Git repository in C:/Users/Admin/.git/
+
+C:\Users\Admin>e:
+
+E:\>mkdir git-dev
+
+E:\>cd git-dev
+
+E:\git-dev>git init
+Initialized empty Git repository in E:/git-dev/.git/
+
+E:\git-dev>git init
+Reinitialized existing Git repository in E:/git-dev/.git/
+
+E:\git-dev>git clone https://github.com/ManuSam23/lara.git
+Cloning into 'lara'...
+warning: You appear to have cloned an empty repository.
+
+E:\git-dev>cd lara
+
+E:\git-dev\lara>git add --all
+
+E:\git-dev\lara>git commit -m 'testing my first commit'
+error: pathspec 'my' did not match any file(s) known to git
+error: pathspec 'first' did not match any file(s) known to git
+error: pathspec 'commit'' did not match any file(s) known to git
+
+E:\git-dev\lara>git commit -m "testing my first commit"
+[main (root-commit) 10c6b86] testing my first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text.txt.txt
+
+E:\git-dev\lara>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 273 bytes | 273.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ManuSam23/lara2.git
+   6660b86..11d1e1c  main -> main
